@@ -24,7 +24,7 @@ nav a {
 }
 .msg h2 {
   color: black;
-  font-family: Montserrat, Verdana;
+  font-family: Montserrat, Verdana, sans-serif;
 }
 h2{
   margin: 0;
@@ -57,14 +57,14 @@ main section img{
 }
 body {
   background-color: #539987;
-  font-family: "DM Sans", Garamond;
+  font-family: "DM Sans", Garamond, sans-serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 .home-title {
   color: black;
-  font-family: Montserrat, Verdana;
+  font-family: Montserrat, Verdana, sans-serif;
   font-size: 2em;
   margin-top: 10px;
 }
