@@ -261,6 +261,7 @@ footer {
 
 .my-portfolio h2{
     border-bottom: 2px solid white;
+    font-size: 2em;
 }
 
 .logo-portfolio {
@@ -275,4 +276,113 @@ footer {
 
 .my-portfolio p {
     font-size: 1.2em;
+}
+
+
+/* About Page */
+
+.my-way {
+    text-align: left;
+    color: white;
+    background-color: #F5C5BE;
+    border-radius: 5px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#title-way {
+    font-size: 2em;
+    font-weight: 1000;
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid white;
+}
+
+.my-way h3{
+    font-size: 1.6em;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.download-resume {
+    background-color: white;
+    color: #F5C5BE;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.download-resume:hover {
+    background-color: #F5C5BE;
+    color: white;
+}
+
+#way-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.certificates {
+    text-align: left;
+    color: white;
+    background-color: #F5C5BE;
+    line-height: 1.8em;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.certificates h2 {
+    border-bottom: 2px solid white;
+    font-size: 2em;
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.certificates ul {
+    font-size: 1.2em;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.values {
+    margin-top: 50px;
+    color: white;
+    background-color: #F5C5BE;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.values h2 {
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid white;
+    font-size: 2em;
+}
+
+.value-content {
+    display: flex;
+}
+
+.values ul {
+    padding: 80px;
+    font-size: 1.6em;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#values-img {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    padding: 10px
+}
+
+.values-text {
+    grid-column: 1/2;
+    padding: 20px;
 }
